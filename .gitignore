@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+.env
+.venv
+.venv/
+virtualenv/
+
+# Cache
+data/cache/
+*.cache
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Ne pas inclure les données brutes et traitées dans le dépôt
+data/raw/*
+data/processed/*
+
+# Mais conserver les répertoires vides avec un fichier .gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep

@@ -1,0 +1,50 @@
+{
+    "rss_feeds": [
+      {
+        "name": "NIST Cybersecurity",
+        "url": "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml",
+        "category": "cybersecurity"
+      },
+      {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/feed/atom/",
+        "category": "cybersecurity"
+      },
+      {
+        "name": "ArXiv CS Cryptography",
+        "url": "http://export.arxiv.org/rss/cs.CR",
+        "category": "cryptography"
+      },
+      {
+        "name": "Secure-IC Post-Quantum Cryptography",
+        "url": "https://www.secure-ic.fr/feed/",
+        "category": "post-quantum"
+      },
+      {
+        "name": "iTPro.fr Cryptographie Post-Quantique",
+        "url": "https://www.itpro.fr/feed/",
+        "category": "post-quantum"
+      }
+    ],
+    "websites": [
+      {
+        "name": "Post-Quantum Cryptography NIST",
+        "url": "https://csrc.nist.gov/Projects/post-quantum-cryptography/news",
+        "selector": "div.area-actions",
+        "category": "post-quantum"
+      },
+      {
+        "name": "ANSSI Cryptographie Post-Quantique",
+        "url": "https://cyber.gouv.fr/actualites",
+        "selector": "article.news-list-item",
+        "category": "post-quantum"
+      },
+      {
+        "name": "Inria Cryptographie Post-Quantique",
+        "url": "https://www.inria.fr/fr/cryptographie-postquantique-protocole-sike",
+        "selector": "div.article-content",
+        "category": "post-quantum"
+      }
+    ]
+  }
+  
